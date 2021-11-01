@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-    System.out.println("Enter a guess:");
+    System.out.println("Enter a binary number:");
     Scanner scanner = new Scanner(System.in);
     String binary = scanner.nextLine().toUpperCase();
 
